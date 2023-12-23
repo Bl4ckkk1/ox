@@ -28,7 +28,6 @@ const InventoryGrid: React.FC<{ inventory: Inventory }> = ({ inventory }) => {
       <div className="inventory-grid-wrapper" style={{ pointerEvents: isBusy ? 'none' : 'auto' }}>
         <div>
           <div className="inventory-grid-header-wrapper">
-            <p>{inventory.label}</p>
           </div>
         </div>
         <div className="inventory-grid-container" ref={containerRef}>
